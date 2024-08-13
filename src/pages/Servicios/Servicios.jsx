@@ -32,8 +32,6 @@ const Servicios = () => {
           {gallery.map((image) => {
             const { id, title, url } = image
 
-            console.log(image)
-
             return (
               <div
                 className='card-image-container'
