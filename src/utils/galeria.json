@@ -1,68 +1,67 @@
 [
-    {
-        "id": "1",
-        "title": "Zona de carpas",
-        "url": "zona-carpas.png"
-    },
-    
-    {
-        "id": "2",
-        "title": "Eventos recreativos",        
-        "url": "eventos-recreativos.png"
-    },
-    
-    {
-        "id": "3",
-        "title": "Eventos deportivos",        
-        "url": "deportivos.png"
-    },
-    
-    {
-        "id": "4",
-        "title": "Eventos empresariales",        
-        "url": "empresariales.png"
-    },
-    
-    {
-        "id": "5",
-        "title": "Eventos sociales",        
-        "url": "sociales.png"
-    },
-    
-    {
-        "id": "6",
-        "title": "Gimnasio",         
-        "url": "gimnasio.png"
-    },
-    
-    {
-        "id": "7",
-        "title": "Zona de picnic",          
-        "url": "zona-picnic.png"
-    },
-    
-    {
-        "id": "8",
-        "title": "Quincho",        
-        "url": "quincho.png"
-    },
-    
-    {
-        "id": "9",
-        "title": "Plaza de juegos",        
-        "url": "plaza.png"
-    },
-    
-    {
-        "id": "11",
-        "title": "Eventos al aire libre",
-        "url": "aire-libre.png"
-    },
-    
-    {
-        "id": "12",
-        "title": "Campamento Holanda",
-        "url": "campamento.png"
-    }
-    
+  {
+    "id": "1",
+    "title": "Zona de carpas",
+    "url": "zona-carpas.webp"
+  },
+
+  {
+    "id": "2",
+    "title": "Eventos recreativos",
+    "url": "eventos-recreativos.webp"
+  },
+
+  {
+    "id": "3",
+    "title": "Eventos deportivos",
+    "url": "deportivos.webp"
+  },
+
+  {
+    "id": "4",
+    "title": "Eventos empresariales",
+    "url": "empresariales.webp"
+  },
+
+  {
+    "id": "5",
+    "title": "Eventos sociales",
+    "url": "sociales.webp"
+  },
+
+  {
+    "id": "6",
+    "title": "Gimnasio",
+    "url": "gimnasio.webp"
+  },
+
+  {
+    "id": "7",
+    "title": "Zona de picnic",
+    "url": "zona-picnic.webp"
+  },
+
+  {
+    "id": "8",
+    "title": "Quincho",
+    "url": "quincho.webp"
+  },
+
+  {
+    "id": "9",
+    "title": "Plaza de juegos",
+    "url": "plaza.webp"
+  },
+
+  {
+    "id": "11",
+    "title": "Eventos al aire libre",
+    "url": "aire-libre.webp"
+  },
+
+  {
+    "id": "12",
+    "title": "Campamento Holanda",
+    "url": "campamento.webp"
+  }
 ]

@@ -24,9 +24,9 @@ footer {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    'footer__phone footer__instagram'
-    'footer__email footer__facebook'
-    'footer__address footer__google';
+    "footer__phone footer__instagram"
+    "footer__email footer__facebook"
+    "footer__address footer__google";
   align-items: center;
   justify-items: center;
   gap: 10px;
@@ -66,9 +66,9 @@ footer {
     margin: 0 auto;
   }
 
-  .footer{
+  .footer {
     min-height: initial;
-    padding: 40px 0 ;
+    padding: 40px 0;
   }
 
   .footer .flex {
@@ -87,9 +87,9 @@ footer {
     gap: 20px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      'footer__phone footer__email footer__instagram footer__facebook'
-      'footer__address footer__address footer__address footer__address'
-      'footer__google footer__google footer__google footer__google';
+      "footer__phone footer__email footer__instagram footer__facebook"
+      "footer__address footer__address footer__address footer__address"
+      "footer__google footer__google footer__google footer__google";
   }
 
   .footer__phone {
@@ -116,7 +116,7 @@ footer {
     grid-area: footer__google;
   }
 
-  .google-comments{
+  .google-comments {
     text-align: center;
   }
 }

@@ -5,7 +5,7 @@
   font-size: 20px;
   line-height: 25px;
   color: var(--blue);
-  background: url('../../assets/img/quiero-ayudar/rectangle.png');
+  background: url("../../assets/img/quiero-ayudar/rectangle.png");
   width: 100%;
   height: 86px;
   text-align: left;
@@ -247,7 +247,7 @@
     height: 40px;
   }
 
-  .qr-section{
+  .qr-section {
     min-height: 0;
   }
 
@@ -276,7 +276,7 @@
   }
 
   .qr-section__code h3 {
-    font-family: 'Capriola';
+    font-family: "Capriola";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

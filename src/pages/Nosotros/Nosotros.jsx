@@ -1,22 +1,19 @@
-import './Nosotros.css';
-import { Link } from 'react-router-dom';
+import './Nosotros.css'
+import { Link } from 'react-router-dom'
 // context
-import { useContext } from 'react';
-import { CategoryContext } from '../../context/CategoryContext';
+import { useContext } from 'react'
+import { CategoryContext } from '../../context/CategoryContext'
 /* imágenes */
-import waveNosotros from '../../assets/img/nosotros/wave-acerca-nosotros.png';
+import waveNosotros from '../../assets/img/nosotros/wave-acerca-nosotros.png'
 
 const Nosotros = () => {
   const { changeCategory } = useContext(CategoryContext)
 
   return (
     <main className='nosotros' onLoad={() => changeCategory('nosotros')}>
-        
-        {/* Subcategorías */}
-
       <div className='info-nosotros-container'>
         <div className='subcategories-nosotros-container'>
-          
+
           <Link to='/nosotros'>
             <button className='acerca-nosotros-btn'>
                 <h1>Acerca de nosotros</h1>
@@ -34,11 +31,7 @@ const Nosotros = () => {
           <Link to='/financiamiento'>
             <button className='nosotros-btn'>Cómo nos financiamos</button>
           </Link>
-
         </div>
-
-                {/* Información */}
-
         <div className='info-text-nosotros-container'>
           <div className='info-text-nosotros'>
             <p>
@@ -66,9 +59,6 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      
-          {/* Wave */}
-
       <div className='acerca-nosotros-wave-container'>
         <img src={waveNosotros} alt='wave-acerca-nosotros'className='acerca-nosotros-wave'/>
       </div>
@@ -76,4 +66,4 @@ const Nosotros = () => {
   )
 }
 
-export default Nosotros;
+export default Nosotros

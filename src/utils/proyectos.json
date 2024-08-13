@@ -1,37 +1,37 @@
 [
-    {
-        "id": "1",
-        "title": "Cuidame",
-        "url": "proyecto-cuidame.png",
-        "bgColor": "#E94567",
-        "description": "Proyecto de familias solidarias. Destinado a los niños y niñas de 0 a 6 años. Su objetivo es brindar al niño o niña un ambiente familiar estable, en el que pueda recibir cuidados, atención y la educación necesaria que facilite su desarrollo integral, sin perder su identidad de origen hasta que se resuelva su situación singular."
-    },
-    {
-        "id": "2",
-        "title": "Nea",
-        "url": "proyecto-nea.png",
-        "bgColor": "#39B69F",
-        "description": "Orientación, Atención y Asistencia a personas y familias en Consumo Problemático de Sustancias."
-    },
-    {
-        "id": "3",
-        "title": "Amparo",
-        "url": "proyecto-amparo.png",
-        "bgColor": "#9D68A6",
-        "description": "Atiende y Asiste a personas y familias víctimas de violencia doméstica e intrafamiliar, y también a personas y familias en situación de calle."
-    },
-    {
-        "id": "4",
-        "title": "Albores",
-        "url": "proyecto-albores.png",
-        "bgColor": "#FDD354",
-        "description": "Chicas y chicos de 12 a 21 años de edad de nuestros barrios periféricos, que están en riesgo social o con vulneración de derechos. Se asiste y atiende en diversas necesidades básicas. Se les propone capacitación en artes y oficios. También se trabajan talleres en prevención a distintas problemáticas, y se promueve el cuidado del medio ambiente."
-    },
-    {
-        "id": "5",
-        "title": "Aldea",
-        "url": "proyecto-aldea.png",
-        "bgColor": "#F3940E",
-        "description": "Hogar convivencial. Asiste, ampara y protege a niños, niñas y adolescentes de 3 a 18  años con derechos vulnerados. Los niños viven en el hogar hasta que se resuelve su situación legal, se le brinda  una respuesta alternativa, excepcional y provisoria que garantice el cumplimiento de sus derechos amenazados."
-    }
+  {
+    "id": "1",
+    "title": "Cuidame",
+    "url": "proyecto-cuidame.png",
+    "bgColor": "#E94567",
+    "description": "Proyecto de familias solidarias. Destinado a los niños y niñas de 0 a 6 años. Su objetivo es brindar al niño o niña un ambiente familiar estable, en el que pueda recibir cuidados, atención y la educación necesaria que facilite su desarrollo integral, sin perder su identidad de origen hasta que se resuelva su situación singular."
+  },
+  {
+    "id": "2",
+    "title": "Nea",
+    "url": "proyecto-nea.png",
+    "bgColor": "#39B69F",
+    "description": "Orientación, Atención y Asistencia a personas y familias en Consumo Problemático de Sustancias."
+  },
+  {
+    "id": "3",
+    "title": "Amparo",
+    "url": "proyecto-amparo.png",
+    "bgColor": "#9D68A6",
+    "description": "Atiende y Asiste a personas y familias víctimas de violencia doméstica e intrafamiliar, y también a personas y familias en situación de calle."
+  },
+  {
+    "id": "4",
+    "title": "Albores",
+    "url": "proyecto-albores.png",
+    "bgColor": "#FDD354",
+    "description": "Chicas y chicos de 12 a 21 años de edad de nuestros barrios periféricos, que están en riesgo social o con vulneración de derechos. Se asiste y atiende en diversas necesidades básicas. Se les propone capacitación en artes y oficios. También se trabajan talleres en prevención a distintas problemáticas, y se promueve el cuidado del medio ambiente."
+  },
+  {
+    "id": "5",
+    "title": "Aldea",
+    "url": "proyecto-aldea.png",
+    "bgColor": "#F3940E",
+    "description": "Hogar convivencial. Asiste, ampara y protege a niños, niñas y adolescentes de 3 a 18  años con derechos vulnerados. Los niños viven en el hogar hasta que se resuelve su situación legal, se le brinda  una respuesta alternativa, excepcional y provisoria que garantice el cumplimiento de sus derechos amenazados."
+  }
 ]

@@ -14,11 +14,10 @@
   font-size: 24px;
   line-height: 30px;
   padding-top: 40px;
-
 }
 
 .contact-title h1::after {
-  content: '';
+  content: "";
   display: block;
   border-bottom: 4px solid var(--white);
   width: 50%;
@@ -60,7 +59,7 @@
 }
 
 .form-section h2::after {
-  content: '';
+  content: "";
   display: block;
   border-bottom: 3px solid var(--lightBlue);
   width: 20%;
@@ -83,16 +82,16 @@
   height: 50px;
 }
 
-input[id='nombre'],
-input[id='telefono'] {
+input[id="nombre"],
+input[id="telefono"] {
   width: 290px;
 }
 
-input[id='email'] {
+input[id="email"] {
   width: 600px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   width: 150px;
   height: 50px;
   left: 234px;
@@ -110,7 +109,7 @@ input[type='submit'] {
   margin: 20px auto;
 }
 
-input[type='submit']:hover {
+input[type="submit"]:hover {
   cursor: pointer;
   background: var(--white);
   color: var(--red);
@@ -139,21 +138,20 @@ input[type='submit']:hover {
 }
 
 @media screen and (max-width: 768px) {
-
-    .contact-title h2 {
+  .contact-title h2 {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     margin: 0 10px;
-    }
+  }
 
-    .form-section form {
+  .form-section form {
     width: 100%;
-    }
+  }
 
-    .form-section h2 {
+  .form-section h2 {
     align-self: center;
-    }
+  }
 
   .form-section div {
     width: 100%;
@@ -161,16 +159,15 @@ input[type='submit']:hover {
     gap: 18px;
   }
 
-  input[id='nombre'],
-  input[id='telefono'],
-  input[id='email'],
+  input[id="nombre"],
+  input[id="telefono"],
+  input[id="email"],
   .form-section textarea {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 480px) {
-
   .contact-title h1 {
     font-size: 16px;
     line-height: 20px;
@@ -180,7 +177,7 @@ input[type='submit']:hover {
     border-bottom: 2px solid var(--white);
   }
 
-  .contact-title h2{
+  .contact-title h2 {
     font-size: 14px;
     line-height: 17.5px;
     text-align: center;

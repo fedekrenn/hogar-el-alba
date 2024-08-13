@@ -15,7 +15,7 @@ import WilliamMorris from './components/Nosotros/WilliamMorris/WilliamMorris'
 import Historia from './components/Nosotros/Historia/Historia'
 import Financiamiento from './components/Nosotros/Financiamiento/Financiamiento'
 
-function App() {
+function App () {
   return (
     <CategoryProvider>
        <Header />
@@ -31,9 +31,9 @@ function App() {
           <Route path='/financiamiento' element={<Financiamiento />} />
           <Route path='*' element={<h1>404 - Not Found</h1>} />
         </Routes>
-      <Footer /> 
+      <Footer />
     </CategoryProvider>
   )
 }
 
-export default App;
+export default App

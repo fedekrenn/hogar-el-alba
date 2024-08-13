@@ -1,11 +1,11 @@
 import './Footer.css'
 import { Link } from 'react-router-dom'
 /* icons */
-import wspIcon from '../../assets/icons/whatsapp-icon.png'
-import emailIcon from '../../assets/icons/email-icon.png'
-import mapIcon from '../../assets/icons/map-icon.png'
-import fbIcon from '../../assets/icons/facebook-icon.png'
-import igIcon from '../../assets/icons/instagram-icon.png'
+import wspIcon from '../../assets/icons/whatsapp-icon.svg'
+import emailIcon from '../../assets/icons/email-icon.svg'
+import mapIcon from '../../assets/icons/map-icon.svg'
+import fbIcon from '../../assets/icons/facebook-icon.svg'
+import igIcon from '../../assets/icons/instagram-icon.svg'
 
 const Footer = () => {
   return (

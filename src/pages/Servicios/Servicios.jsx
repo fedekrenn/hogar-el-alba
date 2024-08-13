@@ -30,8 +30,9 @@ const Servicios = () => {
       <div className='gallery-container'>
         <div className='gallery-images'>
           {gallery.map((image) => {
-
             const { id, title, url } = image
+
+            console.log(image)
 
             return (
               <div
@@ -46,7 +47,7 @@ const Servicios = () => {
               >
                 <div className='image-container'>
                   <img
-                    src={require(`../../assets/img/servicios/${url}`)}
+                    src={`/images/${url}`}
                     alt={title}
                   />
                 </div>

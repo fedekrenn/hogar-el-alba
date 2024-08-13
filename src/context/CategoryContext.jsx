@@ -11,7 +11,7 @@ const CategoryProvider = ({ children }) => {
 
   const data = {
     activeCategory,
-    changeCategory,
+    changeCategory
   }
 
   return (

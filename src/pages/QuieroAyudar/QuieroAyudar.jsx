@@ -1,6 +1,6 @@
 import './QuieroAyudar.css'
 /* assets */
-import quieroAyudarBanner from '../../assets/img/quiero-ayudar/grupo-de-amigos-sentados-juntos.png'
+import quieroAyudarBanner from '../../assets/img/quiero-ayudar/grupo-de-amigos-sentados-juntos.webp'
 import waveUp from '../../assets/img/quiero-ayudar/wave-top.png'
 import waveDown from '../../assets/img/quiero-ayudar/wave-bottom.png'
 import qr from '../../assets/img/quiero-ayudar/qr-code.png'
@@ -10,21 +10,20 @@ import { useContext } from 'react'
 import { CategoryContext } from '../../context/CategoryContext'
 
 const QuieroAyudar = () => {
-
   const { changeCategory } = useContext(CategoryContext)
 
   return (
-    <main className='quiero-ayudar' onLoad={() => changeCategory('')}>
-      <section className='background-section'>
+    <main className="quiero-ayudar" onLoad={() => changeCategory('')}>
+      <section className="background-section">
         <img
           src={quieroAyudarBanner}
-          alt='Niños del hogar abrazados mirando el horizonte'
+          alt="Niños del hogar abrazados mirando el horizonte"
         />
         <h1>¡Con tu donación, ayudanos a ayudar!</h1>
-        <img src={waveUp} alt='' className='wave waves' />
+        <img src={waveUp} alt="" className="wave waves" />
       </section>
-      <section className='qr-section'>
-        <div className='qr-section__info'>
+      <section className="qr-section">
+        <div className="qr-section__info">
           <p>
             Tu ayuda es muy importante para poder seguir brindando a cada uno de
             los niños y niñas del Hogar El Alba, un espacio de contención donde
@@ -48,23 +47,26 @@ const QuieroAyudar = () => {
             <li>CVU 0000003100034740171148</li>
             <li>Alias hogar.alba</li>
           </ul>
-          <p className='qr-section__last-p'>
+          <p className="qr-section__last-p">
             Una vez hecha la donación, por favor, enviar el comprobante a
             contable.elalba@gmail.com para su confirmación.
           </p>
         </div>
-        <div className='qr-section__code'>
-          <h3>Escanea el código QR <span>con la App de Mercadopago</span> para colaborar</h3>
-          <img src={qr} alt='QR' />
+        <div className="qr-section__code">
+          <h3>
+            Escanea el código QR <span>con la App de Mercadopago</span> para
+            colaborar
+          </h3>
+          <img src={qr} alt="QR" />
         </div>
       </section>
-      <img src={waveDown} alt='' className='wave-2 waves' />
-      <section className='donation-section'>
-        <div className='donation-section__title'>
+      <img src={waveDown} alt="" className="wave-2 waves" />
+      <section className="donation-section">
+        <div className="donation-section__title">
           <h3>Otras formas de colaborar</h3>
-          <img src={line} alt='' />
+          <img src={line} alt="" />
         </div>
-        <div className='donation-section__info'>
+        <div className="donation-section__info">
           <div>
             <h5>Recibimos en forma permanente donaciones de:</h5>
             <ul>

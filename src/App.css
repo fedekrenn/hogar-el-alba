@@ -1,99 +1,87 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700;800&family=Capriola&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700;800&family=Capriola&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
 
-
-
-  /* Desktop 1440px x 907 */
-  /* Mobile  */
-
-/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--asap);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--asap);
 }
 
 main {
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 120px;
 }
 
-/* html {
-    height: 100vh;
-    background-color: var(--lightBlue);
-} */
-
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-    cursor: pointer;
-    color: inherit;
+  cursor: pointer;
+  color: inherit;
 }
 
-
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 button {
-    font-family: var(--capriola);
+  font-family: var(--capriola);
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Capriola', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Capriola", sans-serif;
 }
-
-/* Global variables */
 
 :root {
+  /* Color palette */
+  --white: #f2f2f2;
+  --black: #000000;
+  --red: #eb574f;
+  --blue: #1b5a9f;
+  --lightBlue: #4b8bbf;
+  --yellow: #f4950c;
+  --imageHover: #1f1e2199;
+  --categoryHover: #1b5a9f80;
 
-    /* Color palette */
-    --white: #F2F2F2;
-    --black: #000000;
-    --red:  #EB574F;
-    --blue: #1B5A9F;
-    --lightBlue: #4B8BBF;
-    --yellow: #F4950C;
-    --imageHover: #1F1E2199;
-    --categoryHover: #1B5A9F80;
+  /* Fonts */
+  --capriola: "Capriola", sans-serif;
+  --asap: "Asap", sans-serif;
 
-
-    /* Fonts */
-    --capriola:'Capriola', sans-serif;
-    --asap: 'Asap', sans-serif;
-
-    /* Shadows */
-    --btnShadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    --btnShadowTwo: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  /* Shadows */
+  --btnShadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  --btnShadowTwo: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* Global styles */
 
 main {
-    min-height: calc(100vh - 110px - 231px);
+  min-height: calc(100vh - 110px - 231px);
 }
 
 main h1 {
-    text-align: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 980px) {
-    main {
-        margin-top: 65px;
-    }
+  main {
+    margin-top: 65px;
+  }
 }

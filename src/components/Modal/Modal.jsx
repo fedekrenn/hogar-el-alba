@@ -6,17 +6,17 @@ const Modal = ({ modalState, isModalOpened, selectedImage }) => {
   if (!modalState) return null
 
   return (
-    <div className='overlay'>
-      <div className='modal-container'>
-        <button className='close-modal' onClick={() => isModalOpened(false)}>
+    <div className="overlay">
+      <div className="modal-container">
+        <button className="close-modal" onClick={() => isModalOpened(false)}>
           X
         </button>
-        <div className='modal-img-container'>
+        <div className="modal-img-container">
           <img
             key={id}
-            src={require(`../../assets/img/servicios/${url}`)}
+            src={`/images/${url}`}
             alt={title}
-            className='img-modal'
+            className="img-modal"
           />
         </div>
       </div>

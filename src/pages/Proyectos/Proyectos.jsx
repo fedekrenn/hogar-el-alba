@@ -1,7 +1,7 @@
 import './Proyectos.css'
 import { useContext } from 'react'
 import { CategoryContext } from '../../context/CategoryContext'
-import background from '../../assets/img/proyectos/plaza.png'
+import background from '../../assets/img/proyectos/plaza.webp'
 import proyects from '../../utils/proyectos.json'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper'
@@ -10,9 +10,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
-
 const Proyectos = () => {
-
   const { changeCategory } = useContext(CategoryContext)
 
   const params = {
@@ -20,30 +18,30 @@ const Proyectos = () => {
     spaceBetween: 30,
     slidesPerView: 3,
     pagination: {
-      clickable: true,
+      clickable: true
     },
     navigation: true,
     centeredSlides: true,
     breakpoints: {
       0: {
-        slidesPerView: 1,
+        slidesPerView: 1
       },
       450: {
-        slidesPerView: 1,
+        slidesPerView: 1
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 2
       },
       1024: {
-        slidesPerView: 3,
-      },
+        slidesPerView: 3
+      }
     },
     initialSlide: 2,
     loop: true,
     slidesPerGroup: 1,
     autoplay: {
-      delay: 6000,
-    },
+      delay: 6000
+    }
   }
 
   return (
@@ -54,14 +52,13 @@ const Proyectos = () => {
       <section>
         <h1>Nuestros Proyectos</h1>
         <Swiper className='card-container' {...params}>
-          {proyects.map((proyect) => {
-            const { id, title, description, url, bgColor } = proyect
+          {proyects.map(({ id, title, description, url, bgColor }) => {
             return (
               <SwiperSlide key={id}>
                 <div style={{ background: bgColor }} className='proyect-card'>
                   <div className='title'>
                     <img
-                      src={require(`../../assets/img/proyectos/${url}`)}
+                      src={`/images/${url}`}
                       alt={title}
                     />
                   </div>

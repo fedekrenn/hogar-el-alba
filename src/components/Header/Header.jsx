@@ -1,53 +1,49 @@
-import './Header.css';
-import { Link } from 'react-router-dom';
-import { useState, useEffect, useRef, useContext } from 'react';
+import './Header.css'
+import { Link } from 'react-router-dom'
+import { useState, useEffect, useRef, useContext } from 'react'
 /* Assets */
-import logo from '../../../src/logo.png';
-import bm from '../../assets/img/bm.png';
-import headerBackground from '../../assets/img/bck-header.png';
+import logo from '../../../src/logo.png'
+import bm from '../../assets/icons/burger-menu.svg'
+import headerBackground from '../../assets/img/divisor.png'
 // Context
-import { CategoryContext } from '../../context/CategoryContext';
+import { CategoryContext } from '../../context/CategoryContext'
 
 const Header = () => {
   const { activeCategory } = useContext(CategoryContext)
 
   const [bmOpen, setBmOpen] = useState(false)
-  let bmRef = useRef()
+  const bmRef = useRef()
 
   const bmChange = () => {
     setBmOpen(!bmOpen)
   }
 
   const nosotrosIsActive =
-        activeCategory === 'nosotros' ? 'category-active' : '';
+        activeCategory === 'nosotros' ? 'category-active' : ''
 
   const proyectosIsActive =
-        activeCategory === 'proyectos' ? 'category-active' : '';
+        activeCategory === 'proyectos' ? 'category-active' : ''
 
   const serviciosIsActive =
-        activeCategory === 'servicios' ? 'category-active' : '';
+        activeCategory === 'servicios' ? 'category-active' : ''
 
   const contactoIsActive =
-        activeCategory === 'contacto' ? 'category-active' : '';
+        activeCategory === 'contacto' ? 'category-active' : ''
 
-  // Click outside sidebar 
+  // Click outside sidebar
 
   useEffect(() => {
-
-    let outsideClickHandler = (e) => {  // Cambio el estado del burguer menu abierto a false si el evento se dispara
-      if(!bmRef.current.contains(e.target)) {
-        setBmOpen(false);
+    const outsideClickHandler = (e) => { // Cambio el estado del burguer menu abierto a false si el evento se dispara
+      if (!bmRef.current.contains(e.target)) {
+        setBmOpen(false)
       };
-      
-    };
-    document.addEventListener('mousedown', outsideClickHandler);  // Hago un listener y llamo a la función de arriba
+    }
+    document.addEventListener('mousedown', outsideClickHandler) // Hago un listener y llamo a la función de arriba
 
     return () => {
-      document.addEventListener('mousedown', outsideClickHandler);
- }
-  }, []);
-
-
+      document.addEventListener('mousedown', outsideClickHandler)
+    }
+  }, [])
 
   return (
     <header>
@@ -92,4 +88,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Header

@@ -1,231 +1,218 @@
 /* Background */
 
 .financiamiento {
-    background-image: url(../../../assets/img/nosotros/financiamiento.png);
-    background-color: var(--lightBlue);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 850px;
-    background-position-y: bottom;
-} 
-
+  background-image: url(../../../assets/img/nosotros/financiamiento.webp);
+  background-color: var(--lightBlue);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 850px;
+  background-position-y: bottom;
+}
 
 /* Subcategories */
 
 .subcategories-financiamiento-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .nosotros-btn {
-    padding: 20px 0;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    width: 230px;
-    text-align: start;
-    padding-left: 15px;
-    color: var(--white);
-    background-color: var(--blue);
+  padding: 20px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  width: 230px;
+  text-align: start;
+  padding-left: 15px;
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 .financiamiento-btn {
-    padding: 20px 0;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    width: 230px;
-    text-align: start;
-    padding-left: 15px;
-    background-color: var(--white);
-    color: var(--red);
-    cursor: pointer;
+  padding: 20px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  width: 230px;
+  text-align: start;
+  padding-left: 15px;
+  background-color: var(--white);
+  color: var(--red);
+  cursor: pointer;
 }
 
 .subcategories-financiamiento-container button:hover {
-    background-color: var(--white);
-    color: var(--red);
-    cursor: pointer;
+  background-color: var(--white);
+  color: var(--red);
+  cursor: pointer;
 }
 .subcategories-financiamiento-container button:focus {
-    background-color: var(--white);
-    color: var(--red);
+  background-color: var(--white);
+  color: var(--red);
 }
 
 /* Info */
 
 .info-financiamiento-container {
-    display: flex;
-    gap: 50px;
-    background-color: var(--lightBlue);
-    padding: 83px;
-    padding-bottom: 30px;
-    width: 100%;
+  display: flex;
+  gap: 50px;
+  background-color: var(--lightBlue);
+  padding: 83px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .info-text-financiamiento-container {
-    display: flex;
-    align-items: flex-start;
-    padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .info-text-financiamiento {
-    display: flex;
-    flex-direction: column;
-    color: var(--white);
-    font-size: 18px;
-    font-family: var(--asap);
-    font-weight: 400;
-    line-height: 22px;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 18px;
+  font-family: var(--asap);
+  font-weight: 400;
+  line-height: 22px;
+  gap: 20px;
 }
 
 /* Wave */
 
 .financiamiento-wave-container {
-    position: relative;
+  position: relative;
 }
 
 .financiamiento-wave {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* ------- Media queries ----------- */
 
 @media screen and (max-width: 980px) {
+  /* Background */
 
-    /* Background */
+  .financiamiento {
+    height: 850px;
+    background-image: url(../../../assets/img/nosotros/financiamiento-mb.webp);
+  }
 
-    .financiamiento {
-        height: 850px;
-        background-image: url(../../../assets/img/nosotros/financiamiento-mb.png);
-    } 
+  /* Info */
 
-    /* Info */
+  .info-financiamiento-container {
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 45px;
+  }
 
-    .info-financiamiento-container {
-        gap: 20px;
-        padding: 20px;
-        background-size: cover;
-        flex-direction: column;
-        padding-top: 45px;
-    }
+  .info-text-financiamiento-container {
+    padding-top: 0;
+  }
 
-    .info-text-financiamiento-container {
-        padding-top: 0;
-    }
-    
-    .info-text-financiamiento {
-        font-size: 16px;
-        gap: 10px;
-    }
+  .info-text-financiamiento {
+    font-size: 16px;
+    gap: 10px;
+  }
 }
-
 
 @media screen and (max-width: 570px) {
-    .financiamiento {
-        height: 790px;
-    } 
+  .financiamiento {
+    height: 790px;
+  }
 
-        
-    .info-text-financiamiento {
-        font-size: 14px;
-}
-
+  .info-text-financiamiento {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  /* Background */
 
-    /* Background */
+  .financiamiento {
+    height: 780px;
+  }
 
-    .financiamiento {
-        height: 780px;
-    } 
-    
-    /* Subcategories */
-    
-    .nosotros-btn {
-        font-size: 14px;
-    }
+  /* Subcategories */
 
-    .financiamiento-btn {
-        font-size: 14px;
-    }
-    /* Info */
+  .nosotros-btn {
+    font-size: 14px;
+  }
 
-    .info-financiamiento-container {
-        padding: 20px;
-        gap: 20px;
-        padding-bottom: 0;
-        padding-top: 45px;
+  .financiamiento-btn {
+    font-size: 14px;
+  }
+  /* Info */
 
-    }
+  .info-financiamiento-container {
+    padding: 20px;
+    gap: 20px;
+    padding-bottom: 0;
+    padding-top: 45px;
+  }
 
-    .info-text-financiamiento {
-        font-size: 14px;
-    }
+  .info-text-financiamiento {
+    font-size: 14px;
+  }
 }
-
 
 @media screen and (max-width: 375px) {
+  /* Background */
 
-    /* Background */
-    
-    .financiamiento {
-        height: 780px;
-    } 
+  .financiamiento {
+    height: 780px;
+  }
 
-    /* Sunbcategories */
+  /* Sunbcategories */
 
-    .nosotros-btn {
-        font-size: 14px;
-    }
+  .nosotros-btn {
+    font-size: 14px;
+  }
 
-    /* Info */
+  /* Info */
 
-    .info-financiamiento-container {
-        gap: 20px;
-        padding-bottom: 0;
-    }
+  .info-financiamiento-container {
+    gap: 20px;
+    padding-bottom: 0;
+  }
 
-    .info-text-financiamiento {
-        font-size: 14px;
-    }
-
+  .info-text-financiamiento {
+    font-size: 14px;
+  }
 }
 
-
 @media screen and (max-width: 344px) {
-    
-    /* Background */
+  /* Background */
 
-    .financiamiento {
-        height: 750px;
-    } 
-    
-    /* Subcategories */
+  .financiamiento {
+    height: 750px;
+  }
 
-    .nosotros-btn {
-        font-size: 14px;
-    }
+  /* Subcategories */
 
-    /* Info */
+  .nosotros-btn {
+    font-size: 14px;
+  }
 
-    .info-financiamiento-container {
-        padding: 20px;
-        gap: 20px;
-        padding-bottom: 0;
+  /* Info */
 
-    }
+  .info-financiamiento-container {
+    padding: 20px;
+    gap: 20px;
+    padding-bottom: 0;
+  }
 
-    .info-text-financiamiento {
-        font-size: 12px;
-    }
+  .info-text-financiamiento {
+    font-size: 12px;
+  }
 }
 
 /* ------- End media queries -------- */

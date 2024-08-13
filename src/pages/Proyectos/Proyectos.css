@@ -7,7 +7,7 @@
 }
 
 .proyectos h1::after {
-  content: '';
+  content: "";
   display: block;
   border-bottom: 4px solid black;
   width: 150px;
@@ -40,12 +40,12 @@
   object-fit: contain;
 }
 
-.proyect-card img[alt='Nea'] {
+.proyect-card img[alt="Nea"] {
   height: 100px;
 }
 
 .proyect-card p {
-  font-family: 'Capriola';
+  font-family: "Capriola";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -62,7 +62,8 @@
   height: 117px;
 }
 
-div.swiper-button-next, div.swiper-button-prev {
+div.swiper-button-next,
+div.swiper-button-prev {
   color: #fff;
   text-shadow: 0 1px 7px #000;
 }

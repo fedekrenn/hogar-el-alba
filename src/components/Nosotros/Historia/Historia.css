@@ -1,199 +1,192 @@
 /* Background */
 
 .historia {
-    background-image: url(../../../assets/img/nosotros/historia-hogar.png);
-    background-color: var(--lightBlue);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 750px;
-    background-position-y: bottom;
-} 
+  background-image: url(../../../assets/img/nosotros/historia-hogar.webp);
+  background-color: var(--lightBlue);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  background-position-y: bottom;
+}
 
 /* Subacategories */
 
 .subcategories-historia-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .nosotros-btn {
-    padding: 20px 0;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    width: 230px;
-    text-align: start;
-    padding-left: 15px;
-    color: var(--white);
-    background-color: var(--blue);
+  padding: 20px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  width: 230px;
+  text-align: start;
+  padding-left: 15px;
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 .historia-btn {
-    padding: 20px 0;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    width: 230px;
-    text-align: start;
-    padding-left: 15px;
-    background-color: var(--white);
-    color: var(--red);
-    cursor: pointer;
+  padding: 20px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  width: 230px;
+  text-align: start;
+  padding-left: 15px;
+  background-color: var(--white);
+  color: var(--red);
+  cursor: pointer;
 }
 
 .subcategories-historia-container button:hover {
-    background-color: var(--white);
-    color: var(--red);
-    cursor: pointer;
+  background-color: var(--white);
+  color: var(--red);
+  cursor: pointer;
 }
 .subcategories-historia-container button:focus {
-    background-color: var(--white);
-    color: var(--red);
+  background-color: var(--white);
+  color: var(--red);
 }
 
 /* Info */
 
 .info-historia-container {
-    display: flex;
-    gap: 50px;
-    background-color: var(--lightBlue);
-    padding: 83px;
-    padding-bottom: 30px;
-    width: 100%;
+  display: flex;
+  gap: 50px;
+  background-color: var(--lightBlue);
+  padding: 83px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .info-text-historia-container {
-    display: flex;
-    align-items: flex-start;
-    padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .info-text-historia {
-    display: flex;
-    flex-direction: column;
-    color: var(--white);
-    font-size: 18px;
-    font-family: var(--asap);
-    font-weight: 400;
-    line-height: 22px;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 18px;
+  font-family: var(--asap);
+  font-weight: 400;
+  line-height: 22px;
+  gap: 20px;
 }
 
 /* Wave */
 
 .historia-wave-container {
-    position: relative;
+  position: relative;
 }
 
 .historia-wave {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* ------- Media queries ---------- */
 
 @media screen and (max-width: 980px) {
+  /* Background */
 
-    /* Background */
-
-   .historia {
+  .historia {
     height: 1040px;
-    background-image: url(../../../assets/img/nosotros/historia-mb.png);
-} 
-    /* Info */
-        
-    .info-historia-container {
-        padding: 20px;
-        background-size: cover;
-        flex-direction: column;
-        padding-bottom: 0;
-        gap: 20px;
-        padding-top: 45px;
-    }
+    background-image: url(../../../assets/img/nosotros/historia-mb.webp);
+  }
+  /* Info */
 
-    .info-text-historia-container {
-        padding-top: 0;
-    }
+  .info-historia-container {
+    padding: 20px;
+    background-size: cover;
+    flex-direction: column;
+    padding-bottom: 0;
+    gap: 20px;
+    padding-top: 45px;
+  }
 
-    .info-text-historia {
-        font-size: 16px;
-        gap: 10px;
-        padding-top: 0;
-    }
+  .info-text-historia-container {
+    padding-top: 0;
+  }
+
+  .info-text-historia {
+    font-size: 16px;
+    gap: 10px;
+    padding-top: 0;
+  }
 }
 
 @media screen and (max-width: 520px) {
+  /* Background */
 
-    /* Background */
+  .historia {
+    height: 1000px;
+  }
 
-    .historia {
-        height: 1000px;
-    } 
+  /* Subcategories */
 
-    /* Subcategories */
+  .nosotros-btn {
+    font-size: 14px;
+  }
 
-    .nosotros-btn {
-        font-size: 14px;
-    }
+  /* Info */
 
-    /* Info */
+  .info-historia-container {
+    padding: 20px;
+    gap: 20px;
+    padding-bottom: 0;
+    padding-top: 45px;
+  }
 
-    .info-historia-container {
-        padding:20px;
-        gap: 20px;
-        padding-bottom: 0;
-        padding-top: 45px;
-    }
+  .info-text-historia {
+    font-size: 14px;
+  }
 
-    .info-text-historia {
-        font-size: 14px;
-    }
+  /* Wave */
 
-    /* Wave */
-    
-    .historia-wave {
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-bottom: 10px;
-    }
+  .historia-wave {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 454px) {
+  /* Background */
 
-    /* Background */
+  .historia {
+    height: 1000px;
+  }
 
-    .historia {
-        height: 1000px;
-    } 
+  /* Subcategories */
 
-    /* Subcategories */
-
-    .nosotros-btn, .historia-btn {
-        font-size: 14px;
-    }
-
+  .nosotros-btn,
+  .historia-btn {
+    font-size: 14px;
+  }
 }
 
-
 @media screen and (max-width: 344px) {
+  /* Background */
 
-    /* Background */
+  .historia {
+    height: 980px;
+  }
 
-    .historia {
-        height: 980px;
-    } 
-
-    .info-text-historia {
-        font-size: 12px;
-    }
-
-
+  .info-text-historia {
+    font-size: 12px;
+  }
 }
 
 /* -------- End media queries -------- */
