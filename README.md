@@ -1,12 +1,18 @@
 # 🏠 Hogar El Alba
 
-Trabajo Freelance para la Asociación Civil "Hogar el Alba", que brinda un espacio de contención, crecimiento, abrigo y protección a niños, niñas y adolescentes con derechos vulnerados. Se creó en React una SPA con distintas secciones que muestran el trabajo que se realiza, junto a los servicios que brinda a la comunidad, como así también sus proyectos.
+Trabajo Freelance para la Asociación Civil "Hogar el Alba", que brinda un espacio de contención, crecimiento, abrigo y protección a niños, niñas y adolescentes con derechos vulnerados. 
 
-### Listado de librerías utilizadas
+Se creó en React una SPA con distintas secciones que muestran el trabajo que se realiza, junto a los servicios que brinda a la comunidad, como así también sus proyectos y formas de colaborar.
 
-- React Router Dom (ruteo)
-- Swiper (Carrousel)
+## Tecnologías
 
+- React
+- React Router Dom
+- Swiper
+
+## El Hogar
+
+Puedes contribuir con el Hogar El Alba a través de su página web: [Hogar El Alba](https://hogarelalba.org.ar/)
 
 <br>
 
